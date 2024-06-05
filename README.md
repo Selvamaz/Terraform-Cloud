@@ -1,10 +1,10 @@
 # Terraform Cloud Project
 ## Project Demo for Terraform Cloud
 >[!Note]
->Tools Used : Github, Terraform, Terraform Cloud
+>## Tools Used : Github, Terraform, Terraform Cloud
 
 >[!Tip]
->## Tools Used
+>## Execution Path
 >Manifest File -> PUSH -> Github -> PUSH -> Terraform Cloud -> Organisation -> Run -> AWS Cloud
 
 ## Manifest File : Contains providers, resources and variables
