@@ -173,7 +173,7 @@ resource "aws_instance" "dev-public-server" {
   }
 }
   resource "aws_instance" "dev-private-server" {
-  count = var.public-instance-count
+  count = var.private-instance-count
   ami = var.ami-id
   instance_type = "t2.micro"
   key_name = "Selva_Linux_April_2024"
