@@ -1,7 +1,8 @@
 # Terraform Cloud Project
 ## Project Demo for Terraform Cloud
 >[!Note]
->## Tools Used : Github, Terraform, Terraform Cloud
+>## Tools Used
+>VSCode, Github, Terraform, Terraform Cloud
 
 >[!Tip]
 >## Execution Path
