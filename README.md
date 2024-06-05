@@ -1,26 +1,27 @@
 # Terraform Cloud Project
 ## Project Demo for Terraform Cloud
 >[!Note]
-> Tools Used : Github, Terraform, Terraform Cloud
+>Tools Used : Github, Terraform, Terraform Cloud
 
-Path
-Manifest File -> PUSH -> Github -> PUSH -> Terraform Cloud -> Organisation -> Run -> AWS Cloud
+>[!Tips]
+>## Tools Used
+>Manifest File -> PUSH -> Github -> PUSH -> Terraform Cloud -> Organisation -> Run -> AWS Cloud
 
-Manifest File : Contains providers, resources and variables
+## Manifest File : Contains providers, resources and variables
 Github -> SCM containts Terraform project and HCL Script 
 Terraform Cloud -> Cloud IAAC management with version control. Creating Organisation
 Organisation -> Different workspace for Dev, QA, Stagin, Production, Deliver and DR
 
-Basic
+## Basic
 1. Install Terraform, Github on either remote server or local machine
 2. Create a terraform manifest file to create 4 ec2-instance with ubuntu version
 3. Make sure 2 public and 2 private servers, nat gateway, internet gateway , subnets and private table
 
-Github 
+## Github 
 1. Create a new public repository with .gitignore as terraform
 2. Copy all tf files and push to origin
 
-Terraform Cloud
+## Terraform Cloud
 1. Search Terraform Cloud and pick the official link
 2. Create a free account -> Confirm email -> Create Organisation -> Create Workspace
 a. Version Control Workflow - Git based workspace
