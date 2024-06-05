@@ -45,5 +45,5 @@ c. This will start securing resources during creation itself (ignore_changes lif
 a. Destruction - Delete all the resources created by the terraform in the workspace
 b. Delete - Delete all the resources, variables, settings in the workspace and delete workspace too
 
-[! Important]
-## This project has no state file and it wont directly work using fork
+>[!Important]
+>## This project has no state file and it wont directly work using fork
