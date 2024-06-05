@@ -11,7 +11,7 @@ variable "aws-region"{
 variable "public-instance-count"{
     description="No of public instance needed"
     type=string
-    default=2
+    default=3
 }
 variable "private-instance-count"{
     description="No of private instance needed"
