@@ -3,7 +3,7 @@
 >[!Note]
 >Tools Used : Github, Terraform, Terraform Cloud
 
->[!Tips]
+>[!Tip]
 >## Tools Used
 >Manifest File -> PUSH -> Github -> PUSH -> Terraform Cloud -> Organisation -> Run -> AWS Cloud
 
@@ -29,9 +29,9 @@ b. CLI-Driver - CLI Based
 c. API-Driver - Application based like VSCode
 3. We are using Version Control -> Github -> Authorise -> Select the repo -> Confirm 
 4. Get into the workspace -> Configure variables or left side pane Variables 
-a. Add Variable -> Environment -> AWS_ACCESS_KEY_ID(key) -> account access key(value)
-b. Add Variable -> Environment -> AWS_SECRET_ACCESS_KEY(key) -> account secret access key(value)
-5. Start Plan -> Check for ‘terraform plan’ results -> if okay -> Confirm & Apply -> to perform ‘terraform apply —auto -approve
+a. Add Variable -> Environment -> ```AWS_ACCESS_KEY_ID(key) -> account access key(value)```
+b. Add Variable -> Environment -> ```AWS_SECRET_ACCESS_KEY(key) -> account secret access key(value)```
+5. Start Plan -> Check for ```terraform plan``` results -> if okay -> Confirm & Apply -> to perform ```terraform apply —auto -approve```
 6. After Successful Run -> TFSTATE file will be there in left pane -> States
 7. We will generate state files for each run. So we can download older versions of state files
 8. Top Right -> Lock -> to lock state files when concurrent access requests appear
