@@ -17,11 +17,6 @@ Github -> SCM containts Terraform project and HCL Script
 Terraform Cloud -> Cloud IAAC management with version control. Creating Organisation
 Organisation -> Different workspace for Dev, QA, Stagin, Production, Deliver and DR
 
-## Basic
-1. Install Terraform, Github on either remote server or local machine
-2. Create a terraform manifest file to create 4 ec2-instance with ubuntu version
-3. Make sure 2 public and 2 private servers, nat gateway, internet gateway , subnets and private table
-
 ## Github 
 1. Create a new public repository with .gitignore as terraform
 2. Copy all tf files and push to origin
