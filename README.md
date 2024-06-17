@@ -1,7 +1,8 @@
 # Terraform Cloud Project
 ## Project Demo for Terraform Cloud
 
-![plot](./path.png)
+![plot](./Path.png)
+
 
 >[!Note]
 >## Tools Used
