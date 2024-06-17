@@ -33,3 +33,5 @@ override.tf.json
 .terraformrc
 terraform.rc
 .DS_Store
+.$Path.drawio.dtmp
+.$Path.drawio.bkp
